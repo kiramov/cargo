@@ -1,0 +1,11 @@
+@mixin after_line {
+    &:after {
+        content: "";
+        width: 1px;
+        height: 21px;
+        float: right;
+        margin-left: 10px;
+        background: #fff;
+        opacity: 0.2;
+    }
+}

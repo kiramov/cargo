@@ -8,6 +8,7 @@
 }
 
 .container {
+    position: relative;
     width: 1140px;
     margin: 0 auto;
 }
@@ -17,5 +18,5 @@
 @import 'base/media';
 
 @import 'blocks/buttons';
-@import 'blocks/header';
 @import 'blocks/promo';
+@import 'blocks/header';

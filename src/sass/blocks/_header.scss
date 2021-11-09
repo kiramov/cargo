@@ -2,7 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 23px;
+    line-height: normal;
+    color: #ffffff;
     &__logo {
         width: 96px;
         img {
@@ -10,11 +11,45 @@
         }
     }
     &__list {
+        margin-top: 12px;
         width: 600px;
         display: flex;
         justify-content: space-between;
+        align-items: center;
+        margin-right: 50px;
+    }
+    &__link {
         list-style-type: none;
         font-size: 15px;
         font-weight: 400;
+        @include after_line;
+        a {
+            color: #ffffff;
+            text-decoration: none;
+            &:hover {
+                animation: scale(1,5);
+                color: $main-color;
+                text-decoration-line: underline;
+            }
+        }
+    }
+    &__contacts {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    &__questions {
+        font-size: 13px;
+        font-weight: 300;
+    }
+    &__phone {
+        font-size: 19px;
+        font-weight: 700;
+        text-decoration: none;
+        color: #ffffff;
+        &:hover {
+            color: $main-color;
+            text-decoration: none;
+        }
     }
 }
