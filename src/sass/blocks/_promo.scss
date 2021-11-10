@@ -1,5 +1,5 @@
 .promo {
-    min-height: 680px;
+    min-height: 760px;
     background: url(../img/main_bg.jpg) center (center/cover) no-repeat;
     padding: 23px 0 82px 0;
     &__wrapper {
@@ -27,5 +27,43 @@
         font-weight: 400;
         text-transform: uppercase;
         color: #ffffff;
+        margin-bottom: 38px;
     }
+    &__divider {
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        width: 809px;
+        align-items: center;
+    }
+    &__strip {
+        content: "";
+        width: 390px;
+        height: 1px;
+        background: #ffffff;
+    }
+    &__circle {
+        content: "";
+        width: 10px;
+        height: 10px;
+        background: #ffffff;
+        border-radius: 100%;
+    }
+    &__icons {
+        margin-top: 35px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        flex-direction: column;
+        width: 262px;
+        min-height: 160px;
+    }
+    &__icon-text {
+        margin-top: 19px;
+        font-size: 16px;
+        font-weight: 300;
+        color: #ffffff;
+    }
+
 }

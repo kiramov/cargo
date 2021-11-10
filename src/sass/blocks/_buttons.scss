@@ -8,14 +8,20 @@
     font-size: 12px;
     font-weight: 400;
     text-transform: uppercase;
-    &_main {
+    transition: .5s;
+    &:hover {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    &__main {
         margin-top: 39px;
         width: 230px;
         height: 57px;
         font-size: 15px;
         font-weight: 700;
     }
-    &_submit {
+    &__submit {
         margin-top: 20px;
         width: 180px;
     }

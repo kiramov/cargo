@@ -26,8 +26,12 @@
         a {
             color: #ffffff;
             text-decoration: none;
+            transition: .6s;
+            display: inline-block;
             &:hover {
-                animation: scale(1,5);
+                -webkit-transform: scale(1.1);
+                -ms-transform: scale(1.1);
+                transform: scale(1.1);
                 color: $main-color;
                 text-decoration-line: underline;
             }
