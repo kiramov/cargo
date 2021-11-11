@@ -1,0 +1,31 @@
+.advantage {
+    padding-top: 55px;
+    background: #f3f3f3;
+    &__wrapper {
+        padding-bottom: 15px;
+        display: grid;
+        grid-template-columns: repeat(2, 540px);
+        column-gap: 60px;
+    }
+    &__column {
+        margin-top: 17px;
+    }
+    &__item {
+        margin-bottom: 35px;
+        display: grid;
+        grid-template-columns: 64px 406px;
+        column-gap: 10px;  
+    }
+    &__head {
+        font-size: 16px;
+        font-weight: 700;
+        color: $main-color;
+    }
+    &__text {
+        margin-top: 9px;
+        line-height: 22px;
+        font-size: 13px;
+        font-weight: 300;
+        color: #3a3a3a;
+    }
+}

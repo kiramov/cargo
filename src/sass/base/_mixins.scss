@@ -9,3 +9,15 @@
         opacity: 0.2;
     }
 }
+
+@mixin divider {
+    &:after {
+        margin-top: 20px;
+        display: block;
+        margin-left: 495px;
+        content: "";
+        width: 148px;
+        height: 1px;
+        background: $main-color;
+        }
+}
