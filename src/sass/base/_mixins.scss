@@ -21,3 +21,16 @@
         background: $main-color;
         }
 }
+
+@mixin circle {
+    &:before {
+        position: absolute;
+        content: "";
+        width: 102px;
+        height: 102px;
+        border: 1px solid #ffffff;
+        border-radius: 100%;
+        top: -18px;
+        left: -26px;
+    }
+}
